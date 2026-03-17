@@ -1,6 +1,3 @@
-Here is the complete updated `page.tsx` with all changes applied:
-
-```tsx
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -1049,4 +1046,3 @@ export default function Page() {
     </main>
   );
 }
-```
