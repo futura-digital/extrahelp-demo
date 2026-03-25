@@ -159,6 +159,7 @@ const navItems = [
   { label: "Forms", href: "#smart-forms" },
   { label: "Notifications", href: "#notifications" },
   { label: "Connected System", href: "#connected-system" },
+  { label: "Calculator", href: "#calculator" },
   { label: "Deploy", href: "#deploy" },
 ];
 
@@ -1045,7 +1046,7 @@ export default function Page() {
       <ConnectedSystem />
 
       {/* ROI Calculator */}
-      <section className="py-24 px-6" style={{ background: C.surface }}>
+      <section id="calculator" className="py-24 px-6" style={{ background: C.surface }}>
         <div className="max-w-4xl mx-auto">
           <SectionTitle
             badge="Revenue Calculator"
