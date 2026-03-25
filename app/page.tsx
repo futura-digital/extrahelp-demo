@@ -864,7 +864,9 @@ const DeployCTA = () => (
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a
-          href="mailto:hello@futuradigital.app"
+          href="https://link.futuradigital.app/widget/booking/SuJF7zuSUQtysLGaeDUL"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
           style={{ background: C.coral, color: C.white, boxShadow: `0 0 32px ${C.coral}40` }}
           onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.background = C.coralDark; }}
