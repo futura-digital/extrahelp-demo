@@ -1041,6 +1041,26 @@ export default function Page() {
       />
 
       <ConnectedSystem />
+
+      {/* ROI Calculator */}
+      <section className="py-24 px-6" style={{ background: C.surface }}>
+        <div className="max-w-4xl mx-auto">
+          <SectionTitle
+            badge="Revenue Calculator"
+            title="See what missed leads are costing you"
+            subtitle="Enter your numbers and get an instant estimate of your monthly and annual revenue loss — and what you could recover."
+          />
+          <div style={{ borderRadius: "16px", overflow: "hidden", border: `1px solid ${C.border}` }}>
+            <iframe
+              src="https://roi-calculator-kit.vercel.app"
+              width="100%"
+              style={{ border: "none", minHeight: "860px", display: "block" }}
+              title="ROI Calculator"
+            />
+          </div>
+        </div>
+      </section>
+
       <DeployCTA />
       <Footer />
     </main>
